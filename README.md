@@ -58,3 +58,25 @@ streamlit run recommender_system.py
 - [implicit](https://github.com/benfred/implicit), recsys library
 - [t-sne guide](https://distill.pub/2016/misread-tsne/)
 - [RFM segmentation](https://www.omniconvert.com/blog/rfm-score/)
+
+# ----------------------------
+## 2) Examples of Collaborative Filtering Recommender Systems:
+#
+#  a. Netflix
+#  b. Amazon
+#  c. Spotify
+#  d. Linkedin
+#
+## 1) Examples of Content-Based Recommender Systems:
+#
+#  a. YouTube
+#  b. Pandora
+#  c. Pinterest
+#  d. Medium
+#
+# ----------------------------
+
+
+
+
+
