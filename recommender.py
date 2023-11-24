@@ -75,3 +75,46 @@ class Recommender:
         self.model.fit(data)
 
         return self
+    
+    def recommended_products(
+            self,
+            user_id,
+            items_to_recommend=5,
+    ):
+       """Finds the recommended items for the user.
+        Returns:
+            (items, scores) pair, where item is already the name of the suggested item.
+        """
+       
+       if not self.fitted:
+           raise InternalStatusError(
+               "Cannot recommend products without previously fitting the model."
+                " Please, consider fitting the model before recommening products."
+           )
+       return self.model.recommend(
+           user_id,
+           self.user_product_matrix[user_id],
+           filter_already_liked_items=True,
+           N=items_to_recommend,
+       )
+    
+    def explain_recommendation(
+            self,
+            user_id,
+            suggested_item_id,
+            recommended_items,
+    ):
+            _, items_score_contrib, _ = self.model.explain(
+                user_id,
+                self.user_product_matrix,
+                suggested_item_id,
+                N=recommended_items,
+            )
+
+            return items_score_contrib
+    def similar_users(self, user_id):
+        return self.model.similar_users(user_id)
+    
+    @property
+    def item_factors(self):
+        return self.model.item_factors
