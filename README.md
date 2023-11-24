@@ -3,13 +3,13 @@ Recommendation system for recommending things
 
 
 
-# Section 1:
+## Section 1:
 
-## Recommendation System (basic)
-
-
+### Recommendation System (basic)
 
 
-# Section 2:
 
-## RFM Clustering Analysis
+
+## Section 2:
+
+### RFM Clustering Analysis
