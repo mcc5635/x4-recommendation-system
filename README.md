@@ -60,19 +60,19 @@ streamlit run recommender_system.py
 - [RFM segmentation](https://www.omniconvert.com/blog/rfm-score/)
 
 # ----------------------------
-## 2) Examples of Collaborative Filtering Recommender Systems:
+# 2) Examples of Collaborative Filtering Recommender Systems:
 #
-#  a. Netflix
-#  b. Amazon
-#  c. Spotify
-#  d. Linkedin
+##  a. Netflix
+##  b. Amazon
+##  c. Spotify
+##  d. Linkedin
 #
-## 1) Examples of Content-Based Recommender Systems:
+# 1) Examples of Content-Based Recommender Systems:
 #
-#  a. YouTube
-#  b. Pandora
-#  c. Pinterest
-#  d. Medium
+##  a. YouTube
+##  b. Pandora
+##  c. Pinterest
+##  d. Medium
 #
 # ----------------------------
 
