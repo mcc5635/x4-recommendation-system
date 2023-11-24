@@ -5,7 +5,7 @@ Recommendation system for recommending things
 
 ## Section 1:
 
-### Recommendation System (basic)
+### Recommendation System
 
 
 
